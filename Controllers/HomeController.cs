@@ -7,13 +7,13 @@ using System.Web.Mvc.Ajax;
 
 namespace Cuppster.WebApiExample.Controllers
 {
-	public class HomeController : Controller
-	{
-		public ActionResult Index ()
-		{
-			ViewData ["Message"] = "Welcome to ASP.NET MVC on Mono!";
-			return View ();
-		}
-	}
+    public class HomeController : Controller
+    {
+        public ActionResult Index()
+        {
+            ViewData["Message"] = "Welcome to ASP.NET MVC on Mono!";
+            return View();
+        }
+    }
 }
 
